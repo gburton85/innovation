@@ -1,0 +1,155 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--header-->
+<div class="lang">
+  <ul>
+    <li><a href="index.html">EN</a></li>
+    <li><a href="indexCH.html">CH</a></li>
+  </ul>
+</div>
+
+  <section id="header" class="header">
+    <h1 id="heading"><span class="orange">Get</span><br> ahead</h1>
+    <h2>Be an innovator.</h2>
+       <a href="#one" class="scrolly"><i class="fa fa-angle-down fa-2x"></i></a>
+  </section><!--end header-->
+
+  <article id="one">
+
+  <div class="row">
+    <div class="col-md-9 col-sm-8">
+      <div class="contain">
+        <h1 class="xl">Anyone can be an innovator</h1>
+
+        <div class="home--text">
+          <p class="larger">Innovation skills are needed by all types of organisations all over the world. Developing these skills will help you to get ahead in your career and boost your employability, no matter what you want to do.
+          </p>
+          <h5>Being an innovator is also now more possible than ever before.</h5>
+          <p>China in particular is very supportive of innovation and entrepreneurs and being at university is a great time to develop these skills.
+          </p>
+          <p>So whether you’re looking to develop your innovation skills, you have an idea for a business, or you have an existing business and are looking for it to grow, use this website to give yourself a headstart, learn something new and connect with people to grow yourself and your innovation skills.
+          </p>
+        </div>
+
+        <!-- reveals-->
+
+        <div class="reveal">
+         <ul id="accord1" class="accordian">
+           <li>
+             <header>
+               <div class="row">
+                 <div class="col-sm-11 col-xs-12">
+                    <h1>Case Study: Innovation and Value </h1>
+                 </div>
+                 <div class="col-sm-1 hidden-xs">
+                     <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+                 </div>
+               </div>
+             </header>
+             <section>
+                <p>China Metals is an established business that makes the complex metal seat frames used inside car seats.  This is an expensive product but it has a low margin of profit and so the business owners would like to look at other ways in which they can increase their revenue.
+                </p>
+                <video width="100%" controls poster="video/poster.png">
+                  <source src="video/chinametals.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+             </section>
+           </li>
+         </ul>
+
+       <ul id="accord2" class="accordian">
+         <li>
+           <header>
+             <div class="row">
+               <div class="col-xs-11">
+                 <h1>Learning activity</h1>
+               </div>
+               <div class="col-sm-1 hidden-xs">
+                 <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+               </div>
+             </div>
+           </header>
+           <section>
+             <p>The China metals case study video shows us that successful innovators and entrepreneurs ‘think differently’.
+             </p>
+             <p>To think differently, a business needs to think about what it CAN Do, not just about what they currently do.  All businesses change over time - they acquire new assets, the business environment changes, customers’ needs change and competition increases.  But developing a business strategy based on being innovative is cheaper than a strategy based on being more competitive.
+             </p>
+             <p>Think about a business and ask yourself “Is what they do, the best use of their capabilities?” Often it is not, and China Metals shows how “Can Do” can be changed to “We do.”
+             </p>
+             <p>This ‘thinking differently’ approach is particularly important for family businesses where it might be time to think: “What should this business be doing with the skills and resources it has?” The business today may not necessarily be the business that will grow and continue to be successful. Imagine what this new business will look like.
+             </p>
+             <p class="larger">Try this - <a href="h5p_innovatorType.html">What type of innovator are you?</a></p>
+           </section>
+         </li>
+       </ul>
+     </div> <!--end reveals-->
+
+      </div><!-- end contian-->
+  </div> <!--end col-->
+
+    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+      <div class="sideBar">
+        <img src="https://randomuser.me/api/portraits/men/30.jpg" class="img-circle profile" alt="Quote" title="Quote">
+
+        <div class="quote">
+          <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+            <p>Being innovative starts with understanding “value” and its relationship with customers. It starts with understanding what the real assets are that a business has to build upon.
+            </p>
+        </div>
+        <div class="name">
+          <h5>Professor Jay Bal</h5>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div><!-- end side col-->
+
+  </article>
+
+  <hr class="blue">
+
+  <section class="style1">
+    <h1 class="xl"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Getting <span class="blue">started</span></h1>
+    <p class="larger">Use this website and the step-by-step activities to develop your innovation and entrepreneurship skills to boost your employability and help you to start and develop your own business:
+    </p>
+
+    <div class="masonry">
+    <div class="masonry__item masonry__item--1">
+      <a href="thinkdifferently.html"><img src="images/1.svg" alt="1" title="1"/></a>
+    </div>
+    <div class="masonry__item masonry__item--2">
+      <a href="creatingvalue.html"><img src="images/2.svg" alt="2" title="2"/></a>
+    </div>
+    <div class="masonry__item masonry__item--3">
+      <a href="winwin.html"><img src="images/3.svg" alt="3" title="3"/></a>
+    </div>
+    <div class="masonry__item masonry__item--4">
+      <a href="value.html"><img src="images/4.svg" alt="4" title="4"/></a>
+    </div>
+    <div class="masonry__item masonry__item--5">
+      <a href="ideageneration.html"><img src="images/5.svg" alt="5" title="5"/></a>
+    </div>
+    <div class="masonry__item masonry__item--6">
+      <a href="innovation.html"><img src="images/6.svg" alt="6" title="6"/></a>
+    </div>
+    <div class="masonry__item masonry__item--7">
+      <a href="plans.html"><img src="images/7.svg" alt="7" title="7"/></a>
+    </div>
+    <div class="masonry__item masonry__item--8">
+      <a href="funding.html"><img src="images/8.svg" alt="8" title="8"/></a>
+    </div>
+    <div class="masonry__item masonry__item--9">
+      <a href="contact.html"><img src="images/9.svg" alt="9" title="9"/></a>
+    </div>
+
+  </div>
+  </section>
+
+{% endblock %}

@@ -1,0 +1,107 @@
+<!-- winwin.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="winwin.html">EN</a></li>
+    <li><a href="winwinCH.html">CH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-9 col-sm-8">
+      <div class="contain">
+        <h1 class="xl black">3. Win:<span class="blue">Win</span></h1>
+        <p class="larger blue">
+          One of the most important skills of being an innovator is ensuring that you create a win:win situation.
+        </p>
+
+        <div class="row panel video">
+          <div class="col-sm-12">
+            <video width="100%" controls poster="video/poster.png">
+              <source src="video/Win_Win.mov" >
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </div>
+
+      </div><!-- end contian-->
+  </div> <!--end col-->
+
+    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+      <div class="sideBar">
+        <img src="https://randomuser.me/api/portraits/women/2.jpg" class="img-circle profile" alt="Quote" title="Quote">
+
+        <div class="quote">
+          <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+            <em>A business exists in an eco-system and has stakeholders (customers, suppliers, shareholders). For a business to run smoothly, it needs to keep all its stakeholders happy. Businesses need to revisit their model at regular intervals in order to create a continuous win-win situation for everyone involved.
+            </em>
+        </div>
+        <div class="name">
+          <h5>Graduate innovator</h5>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!--end row-->
+
+  <div class="row">
+      <div class="contain">
+
+      <div class="well">
+        <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
+          <p>Can you think of examples where you have achieved a win:win outcome?  What has been the result for you and the other people involved?
+          </p>
+          <p>Can you also think of examples where it has not been a win:win outcome?  What was the outcome?
+          </p>
+          <p class="larger"><a href="h5p_winwin.html" class="btn btn-primary">Start activity</a></p>
+      </div>
+
+        <div class="reveal">
+         <ul id="accord3" class="accordian">
+           <li>
+             <header>
+               <div class="row">
+                 <div class="col-sm-11 col-xs-12">
+                    <h1>Creating a win:win </h1>
+                 </div>
+                 <div class="col-sm-1 hidden-xs">
+                     <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+                 </div>
+               </div>
+             </header>
+             <section>
+                <p>Create a win:win for everyone and your idea and business will grow faster and be more successful. The long term success of a business means creating a situation where all involved gain and win in the operation of the business.
+                </p>
+                <div class="list">
+                  <p><b>Before you go to any meeting, with a teacher, supervisor, colleague, think:</b></p>
+                  <ul>
+                    <li><p>“What do I want to gain from this meeting?”</p>
+                    </li>
+                    <li><p>“What things might the other person want to gain?”</p>
+                    </li>
+                    <li><p>“How can I help him/her get what they want, so that I can get what I want, so that we both achieve win:win?”</p>
+                    </li>
+                  </ul>
+                </div>
+             </section>
+           </li>
+         </ul>
+        </div>
+
+      </div><!-- end contain-->
+  </div><!-- end row-->
+
+<a href="value.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+<!-- navigation.nunjucks -->
+<!--nav-->
+  <div id="nav-trigger" class="nav-trigger open">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+  <nav id="nav" class="out">
+    <ul>
+      <li><a href="/"><span class="nav-label">Home</span></a></li>
+      <li><a href="thinkdifferently.html"><span class="nav-label">1. Think differently</span></a></li>
+      <li><a href="creatingvalue.html"><span class="nav-label">2. Creating value</span></a></li>
+      <li><a href="winwin.html"><span class="nav-label">3. Win:Win</span></a></li>
+      <li><a href="value.html"><span class="nav-label">4. Value</span></a></li>
+      <li><a href="ideageneration.html"><span class="nav-label">5. Idea generation</span></a></li>
+      <li><a href="innovation.html"><span class="nav-label">6. Innovation</span></a></li>
+      <li><a href="plans.html"><span class="nav-label">7. Plans vs Models</span></a></li>
+      <li><a href="funding.html"><span class="nav-label">8. Funding</span></a></li>
+      <li><a href="contact.html"><span class="nav-label">9. Contact</span></a></li>
+
+    </ul>
+  </nav><!--end nav-->

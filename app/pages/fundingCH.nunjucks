@@ -1,0 +1,74 @@
+<!-- plans.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="funding.html">EN</a></li>
+    <li><a href="fundingCH.html">CH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-9 col-sm-8">
+      <div class="contain">
+        <h1 class="xl black">8. Finding <span class="blue">funding</span></h1>
+        <p class="larger blue">
+        Funding can be very complicated, so it is better to think about funding when the business model has been proven and needs scaling up.
+        </p>
+        <p>The initial stage of testing the idea and the associated business model should be designed to be minimal cost. For example, do you need a fully functional app or website right from the start?
+        </p>
+
+        <div class="list">
+          <h5>Consider a two-step process to funding:</h5>
+          <ul>
+            <li><p>Test if people value your business offering – you can do this yourself and for no cost. Creating an appropriate business model for this testing phase might also be helpful.
+                </p>
+            </li>
+            <li><p>Design the business model so that the business can scale-up. Once you have established the demand for your business is there, now is the time to approach funders as you can show that customers want your product or service. Your business will be much more attractive to a funder at this stage.
+                </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row panel video">
+          <div class="col-sm-12">
+            <video width="100%" controls poster="video/poster.png">
+              <source src="video/ZhongZhi.mov" >
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </div>
+
+      </div><!-- end contian-->
+  </div> <!--end col-->
+
+    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+      <div class="sideBar">
+        <img src="https://randomuser.me/api/portraits/men/30.jpg" class="img-circle profile">
+
+        <div class="quote">
+          <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+            <em>For start-up entrepreneurs looking for funding, it is critical to understand that funders will need to see proof of the business working and customers actually buying your product or service before they decide to invest their money in your business.
+            </em>
+        </div>
+        <div class="name">
+          <h5>Professor Jay Bal</h5>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!--end row-->
+
+<a href="contactCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

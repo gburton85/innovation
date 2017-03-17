@@ -1,0 +1,84 @@
+<!-- valueCH.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigationCH.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logoCH.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="value.html">EN</a></li>
+    <li><a href="valueCH.html">CH</a></li>
+  </ul>
+</div>
+
+
+<article>
+
+  <div class="row">
+    <div class="col-md-9 col-sm-8">
+      <div class="contain">
+        <h1 class="xl black">4. <span class="blue">Value</span></h1>
+        <p class="larger blue">
+          What is the value in a product, service or idea?  And why is it important? What is your value proposition?
+        </p>
+        <p>Being innovative and an entrepreneur means thinking about the value proposition you are offering your customer.
+        </p>
+        <p>As you have seen with the bar of chocolate example, it’s not the bar of chocolate that is the value proposition, it’s the combination of your customer and your product that is your value proposition.
+        </p>
+        <p>People buy a product with the expectation that they will gain from it. For example, if you buy a pen, it enables you to write, which might help you to write a successful film script and become a film writer.  A successful product or service sells the potential of what can be achieved when it is purchased and used by the customer.
+        </p>
+
+        <div class="row panel video">
+          <div class="col-sm-12">
+            <center>
+              <img src="images/potential-customer-7.gif" class="img-responsive gif">
+            </center>
+          </div>
+        </div>
+
+      </div><!-- end contian-->
+  </div> <!--end col-->
+
+    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+      <div class="sideBar">
+        <img src="https://randomuser.me/api/portraits/women/80.jpg" class="img-circle profile" alt="Quote" title="Quote">
+
+        <div class="quote">
+          <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+            <em>I launched my business with 4 key services and within a month, I understood that my clients only valued and purchased 1 of the 4 services! I learned that when creating your value proposition, you need to think from your customers’ viewpoint and identify what it is about your product that offers value to them once they have purchased it from you.
+            </em>
+        </div>
+        <div class="name">
+          <h5>Graduate innovator</h5>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!--end row-->
+
+  <div class="row">
+      <div class="contain">
+
+        <div class="partBorder">
+          <fieldset>
+            <legend><i class="fa fa-check" aria-hidden="true"></i> Top tip</legend>
+            <p>When being innovative or an entrepreneur, think about your value proposition to your customer and the importance of understanding the product/customer combination and the value this represents.
+            </p>
+            <p>It is also important to understand the difference between the customer and the user - the customer pays and the user uses the product. The customer and the user may be the same person, but in many cases they may not.
+            </p>
+            <p>For example, if a parent buys a toy for a child, who is the value proposition for?   Write down what you think are the different value propositions for buying toys for children by parents. It is important to work out which bundles of value propositions are needed by each targeted customer group.
+            </p>
+          </fieldset>
+        </div>
+
+      </div><!-- end contain-->
+  </div><!-- end row-->
+
+<a href="ideagenerationCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

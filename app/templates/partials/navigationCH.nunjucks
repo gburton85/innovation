@@ -1,0 +1,22 @@
+<!-- navigation.nunjucks -->
+<!--nav-->
+  <div id="nav-trigger" class="nav-trigger open">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+  <nav id="nav" class="out">
+    <ul>
+      <li><a href="indexCH.html"><span class="nav-label">家</span></a></li>
+      <li><a href="thinkdifferentlyCH.html"><span class="nav-label">1. 不同思维</span></a></li>
+      <li><a href="creatingvalueCH.html"><span class="nav-label">2. 创造价值</span></a></li>
+      <li><a href="winwinCH.html"><span class="nav-label">3. 双赢</span></a></li>
+      <li><a href="valueCH.html"><span class="nav-label">4. 价值定位</span></a></li>
+      <li><a href="ideagenerationCH.html"><span class="nav-label">5. 理念形成</span></a></li>
+      <li><a href="innovationCH.html"><span class="nav-label">6. 创新</span></a></li>
+      <li><a href="plansCH.html"><span class="nav-label">7. 计划和模式</span></a></li>
+      <li><a href="fundingCH.html"><span class="nav-label">8. 融资</span></a></li>
+      <li><a href="contactCH.html"><span class="nav-label">9. 摘要信息</span></a></li>
+
+    </ul>
+  </nav><!--end nav-->

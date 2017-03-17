@@ -1,0 +1,78 @@
+<!-- innovation.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="innovation.html">EN</a></li>
+    <li><a href="innovationCH.html">CH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-9 col-sm-8">
+      <div class="contain">
+        <h1 class="xl black">6. <span class="blue">Innovation</span></h1>
+        <p class="larger blue">
+        You need to have a Unique Selling Proposition (USP) that helps them to stand out from the competition.
+        </p>
+        <p>A USP can be created through innovation and good innovation naturally removes the competition.
+          The goal of innovation is to create a business with very few competitors for example, think of Uber (online transport network) and Airbnb (online private accommodation) and their innovative approach to their business area and the lack of competition they have.
+        </p>
+
+        <div class="partBorder">
+          <fieldset>
+            <legend><i class="fa fa-check" aria-hidden="true"></i> Top tip</legend>
+            <p><em>“Insanity is doing the same thing over and over again and expecting different results.”</em> <b>Albert Einstein</b></p>
+            <p>There is a lot of debate as to whether innovation and entrepreneurial thinking can actually be taught. Some like Michael Porter say that it can be taught, while others say it is in your genes. Our view is that everybody has a level of innovation ability determined by their genes, but with innovation education anyone can be a successful innovator.
+            </p>
+          </fieldset>
+        </div>
+
+      </div><!-- end contian-->
+  </div> <!--end col-->
+
+    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+      <div class="sideBar">
+        <img src="https://randomuser.me/api/portraits/women/17.jpg" class="img-circle profile" alt="Quote" title="Quote">
+
+        <div class="quote">
+          <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+            <em>Times have changed and customers have changed. Today, people expect new or different products. Continuous innovation in organizations have become more of a necessity than a choice
+            </em>
+        </div>
+        <div class="name">
+          <h5>Graduate innovator</h5>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!--end row-->
+
+  <div class="row">
+      <div class="contain">
+
+        <div class="well">
+              <h1>Learning activity</h1>
+              <p>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
+    mense vel anno. Atque novos? Excludat iurgia finis,</p>
+              <p>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
+            mense vel anno.</p>
+            <p class="larger"><a href="h5p_innovation_support.html" class="btn btn-primary">Start activity</a></p>
+        </div>
+
+      </div><!-- end contain-->
+  </div><!-- end row-->
+
+<a href="plans.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

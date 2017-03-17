@@ -1,0 +1,5 @@
+<!-- logoCH.nunjucks -->
+<!--logo-->
+<div class="logo">
+  <a href="indexCH.html">innovate<image src="images/2Logo.svg"><b><span class="orange">Get</span>ahead</b></a>
+</div>

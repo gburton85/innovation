@@ -1,0 +1,115 @@
+<!-- thinkdifferentlyCH.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigationCH.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logoCH.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="thinkdifferently.html">EN</a></li>
+    <li><a href="thinkdifferentlyCH.html">CH</a></li>
+  </ul>
+</div>
+
+<article class="ch">
+
+<div class="row">
+  <div class="col-md-9 col-sm-8">
+    <div class="contain">
+      <h1 class="xl black">1. <span class="blue">不同思维</span></h1>
+      <p class="larger blue">
+        不同思维是培养你创新技能或者成为企业家的第一步。
+      </p>
+      <p>改变思维模式，你就能更好地观察到业务机会。如果你像芸芸众生那样思考，你就会发现观察到新的业务机会变得更为困难。尽管通过阅读教材确实能了解每个人的想法，但是，努力做到不墨守成规，你就有机会通过“不同思维”来变得与众不同。
+      </p>
+      <p>请观看“不同思维”案例研究视频，看看不同的思维方法如何帮助一群大学生创办了一家富有创意的学生杂货运输公司。
+      </p>
+
+      <div class="reveal">
+       <ul id="accord3" class="accordian">
+         <li>
+           <header>
+             <div class="row">
+               <div class="col-sm-11 col-xs-12">
+                  <h1>案例研究：不同思维</h1>
+               </div>
+               <div class="col-sm-1 hidden-xs">
+                   <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+               </div>
+             </div>
+           </header>
+           <section>
+              <p>这家Convibo公司的故事讲述了三名大学生如何在“不同思维”的引导下，以一种全新的方式审度杂货运输行业。这个案例研究说明了学生的旅程、他们理念的变化（称为“枢纽点”）以及他们由此成功创办的创新企业。
+              </p>
+           </section>
+         </li>
+       </ul>
+
+       <ul id="accord4" class="accordian">
+         <li>
+           <header>
+             <div class="row">
+               <div class="col-xs-11">
+                 <h1>不同思维</h1>
+               </div>
+               <div class="col-xs-1">
+                 <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+               </div>
+             </div>
+           </header>
+           <section>
+             <p class="larger">现在，尝试这项活动来帮助自己开始不同思维……<a href="h5p_pizza.html">想象自己开披萨餐厅</a>
+             </p>
+             <p>进行这项活动后，在微信群中分享自己的想法——不同思维。与其他人分享自己的想法是一种很好的学习方法，也是建立关系网的一个良好起始点！
+             </p>
+             <div class="qr" style="max-width: 100px;">
+               <a href="http://weixin.qq.com/g/AvFU42ROyAUm0AtY"><img src="images/wechat-qr-thinkdifferent.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
+               </a>
+             </div>
+           </section>
+         </li>
+       </ul>
+     </div><!-- end accordian reveals-->
+
+     <div class="row panel video">
+       <div class="col-sm-12">
+         <video width="100%" controls poster="video/poster.png">
+           <source src="video/convibo.mp4" type="video/mp4">
+           Your browser does not support HTML5 video.
+         </video>
+       </div>
+     </div>
+
+    </div><!-- end contian-->
+</div> <!--end col-->
+
+  <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+    <div class="sideBar">
+      <img src="https://randomuser.me/api/portraits/men/30.jpg" class="img-circle profile" alt="Quote" title="Quote">
+
+      <div class="quote">
+        <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+          <em>不同思维’案例研究显示，这并不是要求我们了解一切，相反，是要以不同的方式来想出解决方案。它还要求我们尝试不同的解决方法，看看哪个最有效——就像这三个学生发现的那样，通常失败是最好的学习方式。
+          </em>
+      </div>
+      <div class="name">
+        <h5>Jay Bal</h5>
+      </div>
+
+      <div class="qr">
+        <h5 class="blue">WeChat QR</h5>
+        <a href="http://weixin.qq.com/g/AvFU42ROyAUm0AtY"><img src="images/wechat-qr-thinkdifferent.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div><!--end row-->
+
+<a href="creatingvalueCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

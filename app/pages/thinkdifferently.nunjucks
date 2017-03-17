@@ -1,0 +1,118 @@
+<!-- thinkdifferently.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+
+<div class="lang">
+  <ul>
+    <li><a href="thinkdifferently.html">EN</a></li>
+    <li><a href="thinkdifferentlyCH.html">CH</a></li>
+  </ul>
+</div>
+
+<article>
+
+<div class="row">
+  <div class="col-md-9 col-sm-8">
+    <div class="contain">
+      <h1 class="xl black">1. Think <span class="blue">differently</span></h1>
+      <p class="larger blue">
+        Thinking differently is the first step to develop your innovation skills or become an entrepreneur.
+      </p>
+      <p>By changing your mind-set you will be better able to spot business opportunities. If you think the same as everyone else you will find it harder to spot a NEW business opportunity. Whilst reading textbooks does tells you what everybody is thinking, thinking differently is your chance to be different by NOT following the textbook.
+      </p>
+      <p>Have a look at the Think Differently case study video to see how a different way of thinking helped a group of university students to create an innovative student grocery delivery business.
+      </p>
+
+      <div class="reveal">
+       <ul id="accord3" class="accordian">
+         <li>
+           <header>
+             <div class="row">
+               <div class="col-sm-11 col-xs-12">
+                  <h1>Case Study: Convibo </h1>
+               </div>
+               <div class="col-sm-1 hidden-xs">
+                   <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+               </div>
+             </div>
+           </header>
+           <section>
+              <p>The story of a business called Convibo illustrates how thinking differently led three university students to look at grocery deliveries in a whole new way.  This case study shows the students’ journey, the changes to their idea (called pivot points) and the resulting innovative and successful business they created.
+              </p>
+           </section>
+         </li>
+       </ul>
+
+       <ul id="accord4" class="accordian">
+         <li>
+           <header>
+             <div class="row">
+               <div class="col-xs-11">
+                 <h1>Think differently </h1>
+               </div>
+               <div class="col-xs-1">
+                 <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+               </div>
+             </div>
+           </header>
+           <section>
+             <p class="larger">Now try this <a href="h5p_pizza.html">activity</a> to help you start to think differently, <a href="h5p_pizza.html">imagine you had your own pizza restaurant...</a>
+             </p>
+             <p>Once you have gone through the activity, share your thoughts on the <a href="http://weixin.qq.com/g/AvFU42ROyAUm0AtY">WeChat group – Think Differently</a>.  Sharing your thoughts with others is a great way to learn and is a good place to start networking!
+             </p>
+
+             <div class="qr" style="max-width: 100px;">
+               <a href="http://weixin.qq.com/g/AvFU42ROyAUm0AtY"><img src="images/wechat-qr-thinkdifferent.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
+               </a>
+             </div>
+
+           </section>
+         </li>
+       </ul>
+     </div><!-- end accordian reveals-->
+
+     <div class="row panel video">
+       <div class="col-sm-12">
+         <video width="100%" controls poster="video/poster.png">
+           <source src="video/convibo.mp4" type="video/mp4">
+           Your browser does not support HTML5 video.
+         </video>
+       </div>
+     </div>
+
+    </div><!-- end contian-->
+</div> <!--end col-->
+
+  <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+    <div class="sideBar">
+      <img src="https://randomuser.me/api/portraits/men/30.jpg" class="img-circle profile" alt="Quote" title="Quote">
+
+      <div class="quote">
+        <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+          <em>The Thinking Differently case study shows that it is not about knowing everything, instead it is about thinking in a different way to come up with a solution.  It’s also about trying out different solutions and seeing what works best – quite often failure is the best way of learning, as these three students found out.
+          </em>
+      </div>
+      <div class="name">
+        <h5>Professor Jay Bal</h5>
+      </div>
+
+      <div class="qr">
+        <h5 class="blue">WeChat QR</h5>
+        <a href="http://weixin.qq.com/g/AvFU42ROyAUm0AtY"><img src="images/wechat-qr-thinkdifferent.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div><!--end row-->
+
+<a href="creatingvalue.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

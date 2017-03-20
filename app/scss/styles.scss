@@ -882,8 +882,15 @@ hr.blue{
   @media (max-width:800px){
     margin-bottom:0px;
     margin-top:20px;
+    margin-bottom:20px;
   }
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+}
+
+@media (max-width:800px){
+  video{
+    min-height: 150px;
+  }
 }
 
 .gif {
@@ -982,10 +989,10 @@ hr.blue{
     color: #fda800;
     padding: 0 20px 0 10px;
     display: inline-block;
-    width: 25%;
+    width: 40%;
     border: 0;
     font-size: 2em;
-    @media (max-width: 768px){
+    @media (max-width: 900px){
       font-size: 1.4em;
       width: 90%;
     }

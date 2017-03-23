@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigationCH.nunjucks" %}
+{% set pg1 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logoCH.nunjucks" %}
 <!--content-->
@@ -29,25 +30,6 @@
       </p>
 
       <div class="reveal">
-       <ul id="accord3" class="accordian">
-         <li>
-           <header>
-             <div class="row">
-               <div class="col-sm-11 col-xs-12">
-                  <h1>案例研究：不同思维</h1>
-               </div>
-               <div class="col-sm-1 hidden-xs">
-                   <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
-               </div>
-             </div>
-           </header>
-           <section>
-              <p>这家Convibo公司的故事讲述了三名大学生如何在“不同思维”的引导下，以一种全新的方式审度杂货运输行业。这个案例研究说明了学生的旅程、他们理念的变化（称为“枢纽点”）以及他们由此成功创办的创新企业。
-              </p>
-           </section>
-         </li>
-       </ul>
-
        <ul id="accord4" class="accordian">
          <li>
            <header>
@@ -66,7 +48,7 @@
              <p>进行这项活动后，在微信群中分享自己的想法——不同思维。与其他人分享自己的想法是一种很好的学习方法，也是建立关系网的一个良好起始点！
              </p>
              <div class="qr" style="max-width: 100px;">
-               <a href="http://weixin.qq.com/g/AvFU42ROyAUm0AtY"><img src="images/wechat-qr-thinkdifferent.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
+               <a href="http://weixin.qq.com/g/AvFU42ROyAUm0AtY"><img src="images/qr/wechat-qr-thinkdifferent.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
                </a>
              </div>
            </section>
@@ -74,8 +56,12 @@
        </ul>
      </div><!-- end accordian reveals-->
 
-     <div class="row panel video">
-       <div class="col-sm-12">
+
+    <div class="well">
+       <h1>案例研究：不同思维</h1>
+       <p>这家Convibo公司的故事讲述了三名大学生如何在“不同思维”的引导下，以一种全新的方式审度杂货运输行业。这个案例研究说明了学生的旅程、他们理念的变化（称为“枢纽点”）以及他们由此成功创办的创新企业。
+       </p>
+       <div class="video">
          <video width="100%" controls poster="video/poster.png">
            <source src="video/convibo.mp4" type="video/mp4">
            Your browser does not support HTML5 video.
@@ -88,7 +74,7 @@
 
   <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
     <div class="sideBar">
-      <img src="https://randomuser.me/api/portraits/men/30.jpg" class="img-circle profile" alt="Quote" title="Quote">
+      <img src="images/jay.jpg" class="img-circle profile" alt="Quote" title="Quote">
 
       <div class="quote">
         <img src="images/quote-grey.png" class="img-responsive quoteMarks">
@@ -99,11 +85,6 @@
         <h5>Jay Bal</h5>
       </div>
 
-      <div class="qr">
-        <h5 class="blue">WeChat QR</h5>
-        <a href="http://weixin.qq.com/g/AvFU42ROyAUm0AtY"><img src="images/wechat-qr-thinkdifferent.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
-        </a>
-      </div>
     </div>
   </div>
 

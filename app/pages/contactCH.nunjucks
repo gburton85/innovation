@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
+{% set pg9 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logo.nunjucks" %}
 <!--content-->
@@ -21,10 +22,10 @@
       <div class="contain">
         <h1 class="xl black">9. <span class="blue">Contact</span></h1>
 
-        <p class="larger">After reviewing this resource, use the WeChat groups to put what you have learned into practice.  Learning and thinking is only the start, practising and doing the activities for real will help you to develop your innovation skills even further.
+        <p class="larger">After reviewing this resource, use the WeChat groups to put what you have learned into practice.  Learning and thinking is only the start, practising the activities for real will help you to develop your innovation skills even further.
         </p>
         <p>Professor Jay Bal, Professor of Innovation and Entrepreneurship, WMG, University of Warwick
-          Jay is a hybrid academic, he knows the theory, the practice but also likes doing and trying new things.  Professor Bal leads the action orientated Warwick MSC in Innovation and Entrepreneurship from which over 50 businesses are launched each year around the world. Professor Bal, has a degree in Electronics and Management, a Masters in Integrated Circuit Design, a fellowship in Manufacturing management (MBA level) and a PhD in Artificial Intelligence.
+          Jay is a hybrid academic, he knows the theory, the practice, but also likes doing and trying new things.  Professor Bal leads the action orientated Warwick MSC in Innovation and Entrepreneurship from which over 50 businesses are launched each year around the world. Professor Bal, has a degree in Electronics and Management, a Masters in Integrated Circuit Design, a fellowship in Manufacturing management (MBA level) and a PhD in Artificial Intelligence.
         </p>
         <p>Keep using your ‘think differently’ skills to help you be an innovator, no matter what you do.  Using this mind-set you can “build your own dreams, not someone else’s!”
         </p>
@@ -37,15 +38,15 @@
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="https://randomuser.me/api/portraits/men/40.jpg" class="img-circle profile" alt="Quote" title="Quote">
+        <img src="images/jay.jpg" class="img-circle profile" alt="Quote" title="Quote">
 
         <div class="quote">
           <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-            <em>Scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-  mense vel anno.</em>
+            <em>Keep using your ‘think differently’ skills to help you be an innovator, no matter what you do. Using this mind-set you can “build your own dreams, not someone else’s!
+            </em>
         </div>
         <div class="name">
-          <h5>Wang Jianlin</h5>
+          <h5>Professor Jay Bal</h5>
         </div>
 
       </div>
@@ -59,9 +60,9 @@
         <div class="partBorder">
           <fieldset>
             <legend><i class="fa fa-check" aria-hidden="true"></i> Top tips</legend>
-            <p>Communication is a very important innovation skill and talking about your idea, or how you will be innovative, is a great way of developing your ability to communicate your passion for innovation and entrepreneurship.  This is a skill valued by employers as well as potential entrepreneur business partners.
+            <p>Communication is a very important innovation skill. Talking about your idea, or how you will be innovative is a great way of developing your ability to communicate well.  This is a skill valued by employers as well as potential business partners.
             </p>
-            <p>Discuss your innovation ideas as this will help you test and improve them. Talking about your ideas can also help you find partners and people to work with. A big danger is falling in love with your idea, and not be able to see the areas that could be improved, so talking about your idea will help you refine your idea and potential business.
+            <p>A big danger is falling in love with your idea, and not be able to see the areas of it that could be improved, so talking about your idea will help you refine your ideas and potential business.
             </p>
             <p>Sketch a business model, share it with others and when you think you have finished, ask yourself “Where is the innovation? What are the assumptions hidden in the model that need testing? How can I test these assumptions in a low cost way?”
             </p>
@@ -73,10 +74,15 @@
                 <li>How can we run this business for many more customers? How can we scale it up?</li>
               </ul>
             </p>
-
           </fieldset>
         </div>
 
+        <hr>
+        <h3>Feedback</h3>
+        <div class="thumbnail">
+          <!-- www.123contactform.com script begins here -->
+          <script type="text/javascript" defer src="//www.123contactform.com/embed/2570411.js" data-role="form"></script>
+        </div>
       </div><!-- end contain-->
   </div><!-- end row-->
 

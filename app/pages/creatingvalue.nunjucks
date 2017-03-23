@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
+{% set pg2 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logo.nunjucks" %}
 <!--content-->
@@ -23,43 +24,6 @@
         <p class="larger blue">
           Identifying the value in a product or service is key to being innovative and thinking like an entrepreneur.
         </p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <div class="partBorder">
-          <fieldset>
-            <legend><i class="fa fa-check" aria-hidden="true"></i> Top tip</legend>
-            <p>Understanding what people really value can help you to create a business.  The owners of the black sock business quickly realised that the value of their business lay not in how their black socks reached their customers, but in the removal of customers having to think about buying socks.
-            </p>
-            <p>This approach can be expanded into many other areas, for example razor blades for shaving and ink cartridges for your printer.
-            </p>
-          </fieldset>
-        </div>
-
-      </div><!-- end contian-->
-  </div> <!--end col-->
-
-    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
-      <div class="sideBar">
-        <img src="https://randomuser.me/api/portraits/men/30.jpg" class="img-circle profile" alt="Quote" title="Quote">
-
-        <div class="quote">
-          <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-            <em>Creating value comes from understanding peoples’ needs better than other people. A pair of socks is a requirement, but most people don’t enjoy shopping for socks.  Thinking differently about buying socks and understanding the business value in selling socks led one business to develop a whole new approach.”
-            </em>
-        </div>
-        <div class="name">
-          <h5>Professor Jay Bal</h5>
-        </div>
-
-      </div>
-    </div>
-
-  </div><!--end row-->
-
-  <div class="row">
-      <div class="contain">
 
         <div class="reveal">
          <ul id="accord5" class="accordian">
@@ -86,11 +50,58 @@
          </ul>
        </div><!-- end accordian reveals-->
 
+        <div class="partBorder">
+          <fieldset>
+            <legend><i class="fa fa-check" aria-hidden="true"></i> Top tip</legend>
+            <p>Understanding what people really value can help you to create a business.  The owners of the black sock business quickly realised that the value of their business lay not in how their black socks reached their customers, but in the removal of customers having to think about buying socks.
+            </p>
+            <p>This approach can be expanded into many other areas, for example razor blades for shaving and ink cartridges for your printer.
+            </p>
+          </fieldset>
+        </div>
+
+      </div><!-- end contian-->
+  </div> <!--end col-->
+
+    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+      <div class="sideBar">
+        <img src="images/jay.jpg" class="img-circle profile" alt="Quote" title="Quote">
+
+        <div class="quote">
+          <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+            <em>Creating value comes from understanding peoples’ needs better than other people. A pair of socks is a requirement, but most people don’t enjoy shopping for socks.  Thinking differently about buying socks and understanding the business value in selling socks led one business to develop a whole new approach.”
+            </em>
+        </div>
+        <div class="name">
+          <h5>Professor Jay Bal</h5>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!--end row-->
+
+  <div class="row">
+      <div class="contain">
+
         <div class="well">
+          <div class="row">
+            <div class="col-sm-10">
               <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity</h2>
               <p>Can you think of other products or services that you need to buy and to have but which are perhaps aren’t so enjoyable to think or spend time and energy purchasing?
-              </p>
-              <p class="larger"><a href="h5p_createvalue.html">How can you create value from an everyday product or service?</a></p>
+            How can you create value from an everyday product or service?  Share your thoughts on the <a href="http://weixin.qq.com/g/AhzZWjYubyvCzfla">Creating Value WeChat group</a> and see what other people think!</p>
+
+              <p><a href="h5p_createvalue.html" class="btn btn-primary">Start activity</a></p>
+            </div>
+
+            <div class="col-sm-2">
+              <div class="qr">
+                <h5 class="blue">WeChat QR</h5>
+                <a href="http://weixin.qq.com/g/AhzZWjYubyvCzfla"><img src="images/qr/qr-createvalue.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div><!-- end contain-->

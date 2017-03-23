@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigationCH.nunjucks" %}
+{% set pg5 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logoCH.nunjucks" %}
 <!--content-->
@@ -16,69 +17,117 @@
 
 <article>
 
-  <div class="row">
-    <div class="col-md-9 col-sm-8">
-      <div class="contain">
-        <h1 class="xl black">5. Idea <span class="blue">Generation</span></h1>
-        <p class="larger blue">
-          Anyone can have a business idea but ideas are not the secret to a successful business!
-        </p>
-        <p>A business idea is rarely in a state that it can immediately be turned into a successful business - it takes a process of learning and developing the idea before it is something that can succeed. So being innovative isn’t just about the idea but is about how the idea is executed and implemented.
-        </p>
-        <h5>A bad idea with great implementation will be better than a great idea with poor implementation.
-        </h5>
 
-        <div class="row panel video">
-          <div class="col-sm-12">
-            <video width="100%" controls poster="video/poster.png">
-              <source src="video/IdeasGeneration.mov" >
-              Your browser does not support HTML5 video.
-            </video>
+    <div class="row">
+      <div class="col-md-9 col-sm-8">
+        <div class="contain">
+          <h1 class="xl black">5. Idea <span class="blue">Generation</span></h1>
+          <p class="larger blue">
+            Anyone can have a business idea but ideas are not the secret to a successful business!
+          </p>
+          <p>A business idea is rarely in a state that it can immediately be turned into a successful business - it takes a process of learning and developing the idea before it is something that can succeed. So being innovative isn’t just about the idea but is about how the idea is executed and implemented.
+          </p>
+          <h5>A bad idea with great implementation will be better than a great idea with poor implementation.
+          </h5>
+          <p>Have a look at the video below to hear more about idea generation and what makes a good business idea stand out.
+          </p>
+
+          <div class="row panel video">
+            <div class="col-sm-12">
+              <video width="100%" controls poster="video/poster.png">
+                <source src="video/IdeasGeneration.mov" >
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
           </div>
+
+        </div><!-- end contian-->
+    </div> <!--end col-->
+
+      <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+        <div class="sideBar">
+          <img src="images/jay.jpg" class="img-circle profile" alt="Quote" title="Quote">
+
+          <div class="quote">
+            <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+              <em>Ideas don’t have value in themselves, the real value is in how you design the business to make it a reality.
+              </em>
+          </div>
+          <div class="name">
+            <h5>Professor Jay Bal</h5>
+          </div>
+
         </div>
-
-      </div><!-- end contian-->
-  </div> <!--end col-->
-
-    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
-      <div class="sideBar">
-        <img src="https://randomuser.me/api/portraits/men/30.jpg" class="img-circle profile" alt="Quote" title="Quote">
-
-        <div class="quote">
-          <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-            <em>Ideas don’t have value in themselves, the real value is in how you design the business to make it a reality.
-            </em>
-        </div>
-        <div class="name">
-          <h5>Professor Jay Bal</h5>
-        </div>
-
       </div>
-    </div>
 
-  </div><!--end row-->
+    </div><!--end row-->
 
-  <div class="row">
-      <div class="contain">
-        <div class="partBorder">
-          <fieldset>
-            <legend><i class="fa fa-check" aria-hidden="true"></i> Top tip</legend>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </fieldset>
-        </div>
+    <div class="row">
+        <div class="contain">
 
-        <div class="well">
-              <h1>Do I have a good idea?</h1>
+          <div class="reveal">
+           <ul id="accord5" class="accordian">
+             <li>
+               <header>
+                 <div class="row">
+                   <div class="col-sm-11 col-xs-12">
+                      <h1>Look for problems</h1>
+                   </div>
+                   <div class="col-sm-1 hidden-xs">
+                       <i class="fa fa-chevron-down hidden-xs" aria-hidden="true"></i>
+                   </div>
+                 </div>
+               </header>
+               <section>
+                  <p><b>Do not look for ideas! Look for problems</b> that people are having in their lives and how they may be solved. The more modern approach to a successful business is not to think about new products or services, but to identify a group of people that would make good customers for your business, and then explore what their needs are and how you could help them.
+                  </p>
+                  <p><b>Characteristics of “good customers” are:</b>
+                    <ul>
+                      <li>There are a lot of them, they are easy to find and they spend often!
+                      </li>
+                      <li>Your product/service would be important to them, they get high value and it does not cost you a lot to produce.
+                      </li>
+                      <li>There are many ways to reach these customers, they do not require much after sales support and little product/service promotion is required.
+                      </li>
+                      <li>You have a high profit margin, there are many opportunities to sell them other products or for them to “upgrade” plus the ongoing cost of product development is low.
+                      </li>
+                      <li>Low investment is required to enter the market, to keep your market share and to stay competitive.
+                      </li>
+                  </ul>
+                </p>
+                <p>Focus on solving problems for people who would make good customers but keep in mind that it is unlikely that a customer group would meet all of the requirements 1-5 listed above.
+                </p>
+               </section>
+             </li>
+           </ul>
+         </div><!-- end accordian reveals-->
 
-              <p>Don’t keep your idea secret!  Talking about your idea will help you identify if it is a good idea as you will discover if it is worth developing into a real business.  Sharing ideas and networking increases the possibilities for idea generation.
-              </p>
-              <p>An idea in a growing market (where lots of people want your product, or lots of people are having the same problem) will be more successful than in a declining market.
-              </p>
-              <p>An idea of a new product which a few people really need is better than one where many people are only marginally interested.
-              </p>
-            <p class="larger"><a href="h5p_ideas.html" class="btn btn-primary">Start activity</a></p>
-        </div>
+          <div class="well">
+            <div class="row">
+            <div class="col-sm-10">
+                <h1><i class="fa fa-lightbulb-o"></i> Do I have a good idea?</h1>
+
+                <p>Don’t keep your idea secret!  Talking about your idea will help you identify if it is a good idea as you will discover if it is worth developing into a real business.  Sharing ideas and networking increases the possibilities for idea generation.
+                </p>
+                <p>An idea in a growing market (where lots of people want your product, or lots of people are having the same problem) will be more successful than in a declining market.
+                </p>
+                <p>An idea of a new product which a few people really need is better than one where many people are only marginally interested.
+                </p>
+                <p>Try this activity to find out more about idea generation and what makes a good idea and then share your ideas on the Idea Generation WeChat group.
+                </p>
+              <p class="larger"><a href="h5p_ideas.html" class="btn btn-primary">Start activity</a></p>
+            </div>
+
+              <div class="col-sm-2">
+                <div class="qr">
+                  <h5 class="blue">WeChat QR</h5>
+                  <a href="http://weixin.qq.com/g/AI-e3Xntnrwup1n8"><img src="images/qr/qr-ideas.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
 
       </div><!-- end contain-->
   </div><!-- end row-->

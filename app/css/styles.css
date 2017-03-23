@@ -415,6 +415,60 @@ nav.in li {
     .subHeader {
       height: 60px; } }
 
+.banner1 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/1-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.banner2 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/2-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.banner3 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/3-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.banner4 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/4-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.banner5 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/5-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.banner6 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/6-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.banner7 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/7-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.banner8 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/8-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
+.banner9 {
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/banners/9-crop.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat; }
+
 section h2 {
   margin-bottom: 1.5em; }
 
@@ -819,10 +873,11 @@ hr.blue {
   margin: 20px 0; }
 
 .qr {
-  margin: 20px 10px; }
+  margin: 20px 0px;
+  max-width: 150px; }
 
 .btn-primary {
   background: #008bbf; }
 
 .well {
-  margin: 40px 0; }
+  margin: 20px 0; }

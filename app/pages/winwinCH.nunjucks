@@ -26,8 +26,9 @@
         </p>
 
         <div class="well">
-          <h3>Case study</h3>
-          <p>Here’s an example to help illustrate the importance of win:win: Imagine you are driving along in your car on a wild, stormy night. You drive by a bus stop and you see three people waiting for the bus… now click on the video below to find out the solution:
+          <h3>案例研究
+          </h3>
+          <p>以下是有助于描述双赢重要性的示例：设想你正在暴风雨肆虐的夜晚独自驾车前行。驾车路过公交车站时，你看到有三个人在等公交车。现在点击下面的视频，了解解决方案：
           </p>
             <video width="100%" controls poster="video/poster.png">
               <source src="video/Win_Win.mov" >
@@ -96,13 +97,15 @@
           <div class="col-sm-10">
             <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 学习活动</h2>
               <p>你能否想出自己实现双赢结果的例子？你以及所涉及的其他人的结果是什么？你能否再想出一个不是双赢结果的例子？结果如何？</p>
-              <p>Share your thoughts on the Win:Win WeChat group and see what other people think!</p>
+              <p>在“双赢”微信群分享你的想法，并了解其他人的想法！
+              </p>
               <p class="larger"><a href="h5p_winwin.html" class="btn btn-primary">开始活动</a></p>
           </div>
           <div class="col-sm-2">
             <div class="qr">
-              <h5 class="blue">WeChat QR</h5>
-              <a href="http://weixin.qq.com/g/AsJoqZtjk8cDXzHg"><img src="images/qr/qr-win.png" class="thumbnail img-responsive" alt="WeChat" title="WeChat">
+              <h5 class="blue">微信二维码
+              </h5>
+              <a href="http://www.weibo.com/p/100808012034af43e388081dcad959757636b7?k=%25E5%258F%258C%25E8%25B5%25A2win%253Awin&from=501&_from_=huati_topic"><img src="images/qr/qr-win.png" class="thumbnail img-responsive" alt="Weibo" title="Weibo">
               </a>
             </div>
           </div>
